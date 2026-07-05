@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Form Validation
 document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault();
@@ -39,4 +40,8 @@ function addTask() {
     taskList.appendChild(li);
 
     taskInput.value = "";
+=======
+function showMessage() {
+    alert("Hello! You clicked the button 😊");
+>>>>>>> 55fb7ef07852dbabb764d885457fa075a359bef7
 }
